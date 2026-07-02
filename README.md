@@ -10,7 +10,18 @@ Most public writing about Akash providers is either the official onboarding guid
 
 This repo publishes the scripts and notes that came out of running one provider through those months, sanitized so they can be adapted for other setups. Nothing here is turnkey. Everything here has been on production for at least a quarter.
 
-Longer-form context lives on the operator's [`/log`](https://jjozzietech.com.au/log) — each script here will eventually pair with a post explaining what problem it solves and why the solution looks the way it does.
+Longer-form context lives on the operator's [`/log`](https://jjozzietech.com.au/log) — see the [this repo in context](#-this-repo-in-context) section below.
+
+## // this repo in context
+
+This repo is the code side of a broader publication. If you're looking to understand *why* something here works the way it does, the writing carries more context than any README can:
+
+- [jjozzietech.com.au](https://jjozzietech.com.au) — the operator's site
+- [jjozzietech.com.au/log](https://jjozzietech.com.au/log) — long-form incident writeups, design pieces, and post-mortems covering homelab, networking, Akash, and DePIN operations
+- [jjozzietech.com.au/stack](https://jjozzietech.com.au/stack) — infrastructure inventory, cross-linked to repos here
+- [github.com/jjozzietech](https://github.com/jjozzietech) — this and other public repos
+
+Individual scripts here may reference specific `/log` posts in their subdirectory README when a post is the direct deep-dive companion for that script.
 
 ## // what's in here
 
