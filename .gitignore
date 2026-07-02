@@ -1,0 +1,34 @@
+# Secrets — NEVER COMMIT
+*.key
+*.pem
+*.crt
+*-secret*
+.env
+.env.*
+kubeconfig
+*kubeconfig*
+helm-values-backup-*.yaml
+priv_validator_key.json
+node_key.json
+
+# Provider-specific state we should never publish
+provider.yaml.bak-*
+*.bak
+akash-*-backup-*.yaml
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build/tool output
+dist/
+build/
+node_modules/
+*.log
