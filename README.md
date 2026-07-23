@@ -28,10 +28,10 @@ Individual scripts here may reference specific `/log` posts in their subdirector
 | Directory | What's inside |
 |---|---|
 | [`monitoring/`](./monitoring) | Health checks and self-heal scripts that watch the provider from outside |
+| [`anti-mining/`](./anti-mining) | Two-vector miner detection + auto-blacklist system, sanitized from 6+ months of production |
 
 More directories will land as they get sanitized:
 
-- `anti-mining/` — three-layer defense against tenant abuse of GPU compute
 - `backups/` — etcd and provider-state backup scripts
 - `docs/` — runbooks for helm upgrade post-sequence, ghost-lease cleanup
 
