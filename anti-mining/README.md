@@ -63,11 +63,16 @@ Both lists are opinionated based on 6+ months of observed tenant abuse patterns.
 
 **Before enabling either script via cron, run them manually and inspect the log.** Both write full detail of what they would evict. Confirm the false-positive rate is acceptable for your tenant mix.
 
-## // companion blacklist repo (planned)
+## // companion blacklist repo
 
-The 40+ tenant addresses currently blacklisted on this operator's setup will be published separately as `akash-miner-blacklist` — a dedicated community resource with issue templates for miner reports. Once live, this section links to it as a reference dataset operators can pull from.
+The tenant addresses this operator has blacklisted are published in a separate repo: **[akash-miner-blacklist](https://github.com/jjozzietech/akash-miner-blacklist)**. That repo carries the current 37 entries (with honest provenance disclosure — see its README) plus an issue template for other operators to contribute addresses they've caught.
 
-The scripts here are deliberately generic: they work with whatever blacklist you populate. The blacklist repo is where the shared community intelligence will live.
+The scripts here are deliberately generic: they work with whatever blacklist you populate. The blacklist repo is where the shared community intelligence lives.
+
+Two integration patterns:
+
+- **Reference only** — pull the raw list, review, merge with your own local blacklist
+- **Contribute back** — file an issue when your local eviction catches something new
 
 ## // helm-upgrade sequence — worth reading
 

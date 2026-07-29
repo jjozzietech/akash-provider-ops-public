@@ -43,6 +43,14 @@ More directories will land as they get sanitized:
 - **No helm values files.** These contain per-provider addressing and pricing; sharing them dilutes their signal.
 - **No pricing scripts.** Bid pricing is a lever, not a formula. Publishing our numbers would be misleading — read the `/log` posts on pricing philosophy instead.
 
+## // related repos
+
+Other repos in the operator's public GitHub that pair with this one:
+
+| Repo | What it is |
+|---|---|
+| [akash-miner-blacklist](https://github.com/jjozzietech/akash-miner-blacklist) | Community-observed tenant addresses exhibiting miner behaviour. The `anti-mining/` scripts here consume this dataset. Separate repo because the blacklist grows via community submissions and deserves its own contribution flow. |
+
 ## // upstream contributions
 
 Where the operator has filed issues, PRs, or substantive comments against `akash-network/*` repos. Public record of engagement upstream.
