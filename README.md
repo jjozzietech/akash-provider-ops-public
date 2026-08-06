@@ -60,6 +60,7 @@ Where the operator has filed issues, PRs, or substantive comments against upstre
 | 2026-07-16 | [`akash-network/support`](https://github.com/akash-network/support) | [comment on #487](https://github.com/akash-network/support/issues/487#issuecomment-4988705717) | Fix for silent StorageClass filter — helps another operator stuck on same symptom |
 | 2026-07-16 | [`akash-network/support`](https://github.com/akash-network/support) | [issue #645](https://github.com/akash-network/support/issues/645) | Docs improvement proposal — troubleshooting entry for `/v1/inventory returns storage: []` symptom |
 | 2026-08-05 | [`cosmos/chain-registry`](https://github.com/cosmos/chain-registry) | [PR #7868](https://github.com/cosmos/chain-registry/pull/7868) | Register jjozzietech public Kava RPC/REST/gRPC endpoints |
+| 2026-08-06 | [`cosmos/chain-registry`](https://github.com/cosmos/chain-registry) | [PR #7876](https://github.com/cosmos/chain-registry/pull/7876) | Add jjozzietech Kava gRPC endpoint on dedicated port :9444 (follow-up to #7868) |
 
 ## // use at your own risk
 
